@@ -1,0 +1,16 @@
+Naam: Noa van den Berg
+Studentnummer: 500924783
+Klas: Grafiet
+Schooljaar: 1
+
+LINK NAAR LIVE WEBSITE
+https://noavandenberg.github.io/arianagrandeoefenhtml/index.html
+
+BRONVERMELDING
+1. https://pin.it/12yWYK0
+2. https://nl.pinterest.com/pin/341640321710878102/
+3. https://nl.pinterest.com/pin/387309636719154936/
+4. https://nl.pinterest.com/pin/387309636719154936/
+5. https://www.wellsfargocenterphilly.com/news/detail/due-to-overwhelming-demand-ariana-grande-adds-second-show-at-wells-fargo-center-on-june-24
+6. https://nl.pinterest.com/pin/54324739248653880/
+font: Worksans (https://fonts.google.com/specimen/Work+Sans)

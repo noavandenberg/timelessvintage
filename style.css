@@ -1,0 +1,310 @@
+body {
+    font-family: "Dosis", sans-serif;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+/* header, navigatie en hamburgermenu */
+header {
+    background: rgb(78,95,103);
+    background: rgba(78,95,103,1), rgba(78,95,103,1);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(78,95,103,1);
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+nav a {
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+#menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+
+    #menu-icon {
+        display: flex;
+    }
+
+/* Foto slider home pagina */ 
+    #slider-container {
+        width: 100%;
+        height: 69vh;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+    }
+
+    #slider {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .slide {
+        min-width: 100%;
+        box-sizing: border-box;
+    }
+
+    img {
+        width: 75%;
+        height: auto;
+        display: inline-block;
+        margin-top: 70px;
+    }
+
+    img.logo{
+        width: auto;
+        height: 56px;
+        display: inline-block;
+        margin-top: -10px;
+    }
+
+    #prev, #next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 24px;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        padding: 63px;
+        margin: -61px;
+    }
+
+    #prev {
+        left: 10px;
+    }
+
+    #next {
+        right: 10px;
+    }
+
+ /* iphone 6 container */  
+.iphone-container {
+    width: 315px;
+    margin: 50px auto; 
+    margin-top: 100px;
+    }
+  
+
+    /* button */
+    .border-button {
+        display: inline-block;
+        padding: 7px 48px;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px solid  rgba(78,95,103,1);
+        color: transparent;
+        border-radius: 23px;
+        transition: background-color 0.3s, color 0.3s;
+        color: #fff;
+      }
+  
+      /* Verander de stijl wanneer de knop wordt ingedrukt of gehoverd */
+      .border-button:hover,
+      .border-button:active {
+        background-color:  rgb(184,185,167); /* Achtergrondkleur bij hover of actieve toestand */
+      }
+
+
+/* kleurenvlakken */
+.tekstvak-roze {
+    width: 315px;
+    margin: 50px auto;
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgb(209,184,179);
+    color: #fff;
+    border-radius: 25px;
+    padding: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.28);
+    }
+
+.border-groen{
+    width: 315px;
+    margin: 50px auto;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 25px;    
+    border-color: rgb(184,185,167);
+    border: 2px;
+    border-style: solid;
+    color: #000000;
+    padding: 15px;
+    overflow: hidden;
+    }
+
+.tekstvak-groen {
+    width: 315px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: rgb(184,185,167);
+    color: #fff;
+    border-radius: 25px;
+    padding: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.28);
+    }
+
+    .info-container {
+        position: relative;
+      }
+      
+      .border {
+        width: 315px;
+        margin: 50px auto;
+        margin-top: 100px;
+        text-align: center;
+        border-radius: 25px;    
+        border-color: rgb(184,185,167);
+        border: 2px;
+        border-style: solid;
+        color: #000000;
+        padding: 15px;
+        overflow: hidden;
+        cursor: pointer;
+        
+      }
+      
+      .info-content {
+        width: 315px; /* Breedte van iPhone 6 in portretmodus */
+        margin: 50px auto; /* Gecentreerd op de pagina */
+        margin-top: -45px;
+        text-align: center;
+        border-radius: 25px;    
+        border-color: rgb(184,185,167);
+        border: 2px;
+        border-style: solid;
+        color: #000000;
+        padding: 15px;
+        overflow: hidden;
+        cursor: pointer;
+      }
+
+.info-container2 {
+    position: relative;
+    }
+      
+.border2{
+    width: 315px; /* Breedte van iPhone 6 in portretmodus */
+    margin: 50px auto; /* Gecentreerd op de pagina */
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 25px;    
+    border-color: rgb(184,185,167);
+    border: 2px;
+    border-style: solid;
+    color: #000000;
+    padding: 15px;
+    overflow: hidden;
+    cursor: pointer;
+        
+    }
+      
+    .info-content2 {
+    width: 315px; /* Breedte van iPhone 6 in portretmodus */
+    margin: 50px auto; /* Gecentreerd op de pagina */
+    margin-top: -45px;
+    text-align: center;
+    border-radius: 25px;    
+    border-color: rgb(184,185,167);
+    border: 2px;
+    border-style: solid;
+    color: #000000;
+    padding: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    }
+      
+      
+
+/* fonts */
+@font-face {
+    font-family: 'lalita';
+    src: url('webfont/lilitaone-regular-webfont.eot');
+    src: url('webfont/lilitaone-regular-webfont.eot') format('embedded-opentype'),
+    url('webfont/lilitaone-regular-webfont.woff') format('woff'),
+    url('webfont/lilitaone-regular-webfont.woff') format('truetype'),
+    url('webfont/lilitaone-regular-webfont.svg') format('svg');
+    }
+
+
+h1 { 
+    font-family: 'lalita';
+    }
+
+h2 { 
+    font-family: 'lalita';
+    }
+
+h1{
+    text-align: center;
+    }
+
+h2{
+    text-align: center;
+    }
+
+p{
+    text-align: center;
+    margin: 50px auto;
+    }
+
+
+/* footer */
+footer{
+    background-color: rgb(78,95,103);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    }
+
+    a, a:visited, a:hover, a:active {
+        color: inherit;
+        text-decoration: none;
+      }
+
+
+    footer ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+  
+.row {
+    margin-bottom: 10px;
+    }
+  
+.copyright {
+    font-size: 12px;
+    margin-top: 40px;
+    }
+
+
+
